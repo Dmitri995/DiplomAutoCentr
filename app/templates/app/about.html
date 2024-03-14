@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<main role="main">
+
+	<br><br>
+		<div class="container">
+			<span style="font-size: 30px; color: #A9A9A9;"><i class="fas fa-sitemap"></i></span>
+			&nbsp;&nbsp;
+
+			<font size='+3' color="#9fa8da "><b>О компании</b></font></h2>
+			<button id="myButton" style='background-color: #49ce00'>Нажми меня</button>
+			<hr size="2" width="400" color="#7986cb" align="left">
+			<hr size="2" width="200" color="#7986cb" align="left"><br>
+			<div class="row">
+                <div class="col s3">
+					<center><img src="../media/sale.png" height="72" width="72"><br><br>
+					<h4> Спецпредложения </h4></center>
+					<center>Каждый день новые спецпредложения для вас</center>
+                </div>
+                <div class="col s3">
+					<center><img src="../media/assortiment.png" height="72" width="72"><br><br>
+					<h4>Ассортимент </h4></center>
+					<center>Более 1 000 000 запчастей в наличии</center>
+                </div>
+                <div class="col s3">
+					<center><img src="../media/dostavka.png" height="72" width="72"><br><br>
+					<h4>Доставка</h4></center>
+					<center>Бесплатная доставка по всему городу</center>
+                </div>
+                <div class="col s3">
+					<center><img src="../media/kachestvo.png" height="72" width="72"><br><br>
+					<h4>Гарантия качества </h4></center>
+					<center>Самые качественные услуги и автозапчасти</center>
+                </div>
+			</div>
+		</div><br><br><br>
+		<hr size="2" width="1000" color="#7986cb"><br>&nbsp;&nbsp;
+		<h2 align="center"><span style="font-size: 30px; color: #A9A9A9;"></span><b>Немного о нас</b></font></h2><br>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				</div>
+				<div class="col-10">
+					<p align="justify">ООО «TOP TEHNOLOGY» является сертифицированной
+						станцией по продаже, обслуживанию автотранспорта иностранного и отечественного производства
+						с 2000 года.  За годы работы нашего сервиса был накоплен огромный опыт и знания,
+						необходимые для квалифицированного ремонта, диагностики и технического
+						обслуживания автомобилей любых марок.</p>
+				</div>
+				<div class="col">
+				</div>
+			</div><br><br>
+			<div class="parallax-container">
+				<div class="parallax"><img src="../media/woman.jpeg" width="1100"></div>
+			</div>
+		</div><br><br>
+		<div class="container">
+			<ol><h4><font color="#9fa8da  ">Наши преимущества:</font></h1><br>
+			<ol><ul class="with-Point">
+				<li> Честность. Мы не обманываем наших клиентов. Не завышаем цены, и не производим «лишний» ремонт.<br><br>
+				<li> Качество. Наш автосервис ориентирован в первую очередь на постоянных клиентов. Для нас важно, чтобы все приезжающие к нам клиенты стали постоянными, а потом продолжали обслуживаться у нас. Именно поэтому мы не можем позволить себе выполнять нашу работу не качественно.<br><br>
+				<li> Упрощенная гарантия на запасные части определенных фирм производителей, уточняйте у наших сотрудников.<br><br>
+				<li> Стоимость. Цены в нашем автосервисе заметно ниже средних цен в автосервисах Санкт-Петербурга. В своей работе мы делаем ставку не на высокую стоимость работ, а на их массовость.<br><br>
+				<li> Скорость. Работа в нашем автосервисе отлажена так, чтобы мастера без лишней суеты, но и без простоев спокойно выполняли свою работу. Это позволяет выполнять ремонт настолько быстро, насколько это возможно, но не в ущерб качеству.<br><br>
+				<li> Гарантия. На все выполняемые работы мы предоставляем гарантию.<br><br>
+			</ul></ol></ol>
+		</div>
+
+</main>
+<script src="{% static 'js/script.js' %}"></script>
+{% endblock %}
