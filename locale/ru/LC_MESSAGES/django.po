@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 23:51+0500\n"
+"POT-Creation-Date: 2024-03-17 19:54+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,16 +102,18 @@ msgid ""
 "наилучшего состояния Вашего автомобиля. Обслуживание у нас означает высшее "
 "качество выполненных работ по ремонту и уходу за автомобилем."
 msgstr ""
-"Specialized Automotive Technical Center: We offer a full range of work for"
-"the best condition of your car. Our service means the highest"
-"The quality of the car repair and maintenance work performed."
+"Specialized Automotive Technical Center: We offer a full range of work "
+"forthe best condition of your car. Our service means the highestThe quality "
+"of the car repair and maintenance work performed."
 
 #: .\app\templates\base.html:101
 msgid "МЫ В СОЦИАЛЬНЫХ СЕТЯХ:"
 msgstr "WE ARE IN SOCIAL NETWORKS"
 
 #: .\app\templates\base.html:142
-msgid "Academy TOP ©. Все права защищены."
+#, fuzzy
+#| msgid "Academy TOP ©. Все права защищены."
+msgid "AutoCentr TOP ©. Все права защищены."
 msgstr "Academy TOP ©. All rights reserved."
 
 #: .\auto_centr\venv\Lib\site-packages\django\contrib\messages\apps.py:7

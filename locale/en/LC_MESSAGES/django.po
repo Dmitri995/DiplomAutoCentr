@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 23:07+0500\n"
+"POT-Creation-Date: 2024-03-17 19:54+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,39 +20,97 @@ msgstr ""
 
 #: .\app\forms.py:10
 msgid "Пароли не совпадают."
-msgstr ""
+msgstr "Password mismatch."
 
 #: .\app\forms.py:13
 msgid "Имя пользователя:"
-msgstr ""
+msgstr "Username"
 
 #: .\app\forms.py:24 .\app\forms.py:51
 msgid "E-mail пользователя:"
-msgstr ""
+msgstr "User email"
 
 #: .\app\forms.py:32
 msgid "Придумайте пароль:"
-msgstr ""
+msgstr "Create a password:"
 
 #: .\app\forms.py:39
 msgid "Подтвердите пароль:"
-msgstr ""
+msgstr "Confirm the password:"
 
 #: .\app\forms.py:45
 msgid "Введите тот же пароль, что и ранее."
-msgstr ""
+msgstr "Enter the same password as before."
 
 #: .\app\forms.py:60
 msgid "Пароль:"
-msgstr ""
+msgstr "Password:"
 
 #: .\app\forms.py:78
 msgid "Имя:"
-msgstr ""
+msgstr "Name"
 
 #: .\app\forms.py:86
 msgid "Содержание"
+msgstr "Content"
+
+#: .\app\templates\base.html:39
+msgid "О компании"
+msgstr "About company"
+
+#: .\app\templates\base.html:45
+msgid "Услуги и запчасти"
+msgstr "Services and spare parts"
+
+#: .\app\templates\base.html:56
+msgid "Новости и акции"
+msgstr "News and promotions"
+
+#: .\app\templates\base.html:61
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\app\templates\base.html:65
+msgid "Заказать звонок"
+msgstr "Request a call"
+
+#: .\app\templates\base.html:69
+msgid "Здравствуйте"
+msgstr "Hello"
+
+#: .\app\templates\base.html:72
+msgid "Корзина"
+msgstr "Basket"
+
+#: .\app\templates\base.html:75
+msgid "Выйти"
+msgstr "Exit"
+
+#: .\app\templates\base.html:79
+msgid "Регистрация"
+msgstr "Registration"
+
+#: .\app\templates\base.html:83
+msgid "Войти"
+msgstr "Enter"
+
+#: .\app\templates\base.html:98
+msgid ""
+"Специализированный Автотехцентр: Мы предлагаем весь комплекс работ для "
+"наилучшего состояния Вашего автомобиля. Обслуживание у нас означает высшее "
+"качество выполненных работ по ремонту и уходу за автомобилем."
 msgstr ""
+"Specialized Automotive Technical Center: We offer a full range of work "
+"forthe best condition of your car. Our service means the highestThe quality "
+"of the car repair and maintenance work performed."
+
+#: .\app\templates\base.html:101
+msgid "МЫ В СОЦИАЛЬНЫХ СЕТЯХ:"
+msgstr "WE ARE IN SOCIAL NETWORKS"
+
+#: .\app\templates\base.html:142
+msgid "AutoCentr TOP ©. Все права защищены."
+msgstr "Academy TOP ©. All rights reserved."
 
 #: .\auto_centr\venv\Lib\site-packages\django\contrib\messages\apps.py:7
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
